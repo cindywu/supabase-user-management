@@ -18,7 +18,7 @@ export default function UploadButton(props: UploadButtonProps) {
         }}
         type="file"
         id="single"
-        accept="image/*"
+        accept="image/*, application/pdf"
         onChange={props.onUpload}
         disabled={props.loading}
       />
